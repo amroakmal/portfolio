@@ -44,7 +44,7 @@
 - **Technologies used**: Go
 
 ## Awards
-- Ranked 2nd place with my team at ACM CS Hackathon in 2021.
-- Ranked among top 7% at Codeforces Global Round Contest in 2020.
-- Ranked 10th Place with my team at AlexCPC, and qualified for the Egyptian Collegiate Programming Contest in 2018.
+- Ranked **2nd** place with my team at ACM CS Hackathon in 2021.
+- Ranked among top **7%** at Codeforces Global Round Contest in 2020.
+- Ranked **10th** Place with my team at AlexCPC, and qualified for the Egyptian Collegiate Programming Contest in 2018.
 
