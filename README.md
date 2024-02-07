@@ -1,4 +1,4 @@
-
+## Technical Skills
 #### Programming Languages Skills: C/C++, Java, Go, Python, SQL
 #### Tools and Technologies: Docker, Kubernetes, Apache Spark, Apache ZooKeeper, Node.js, React.js, Linux, Git
 
