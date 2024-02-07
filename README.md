@@ -3,12 +3,12 @@
 #### Tools and Technologies: Docker, Kubernetes, Apache Spark, Apache ZooKeeper, Node.js, React.js, Linux, Git
 
 ## Education
-- M.Sc., Computer Science	| Tennessee Tech. University (01/2024 - Present)	 			        		
-- B.Sc., Computer Engineering | Alexandria University (09/2016 - 06/2021)
+- M.Sc. in Computer Science	| Tennessee Tech. University (01/2024 - Present)	 			        		
+- B.Sc. in Computer Engineering | Alexandria University (09/2016 - 06/2021)
 
 ## Selected Work Experience
 **Software Engineer II @ Incorta (09/2022 - 02/2024)**
-- Accomplished 15% reduction in loader pod memory.
+- Accomplished a **15%** reduction in loader pod memory.
 - Crafted end-to-end encryption solution for customer data, owning all project design and investigations.
 - Supported real-time soft deletion feature for incorta's dashboards, insights, and queries.
 - Optimized the robustness and reliability of multi-loaders in handling distributed loads.
@@ -18,8 +18,8 @@
 - Technologies used: Java, Apache Spark, Apache ZooKeeper, DeltaLake
 
 **Software Engineer I @ Incorta (11/2021 - 08/2022)**
-- Attained a 7X speedup in query execution and dashboard rendering by designing a new model for the data reading process.
-- Slashed data access cost by 20% at cloud storage systems achieving a 5X boost in data retrieval by implementation a new caching layer.
+- Attained a **7X** speedup in query execution and dashboard rendering by designing a new model for the data reading process.
+- Slashed data access cost by **20%** at cloud storage systems achieving a **5X** boost in data retrieval by implementation a new caching layer.
 - Facilitated customer issues diagnostics by improving system resources' telemetry and monitoring.
 - Technologies used: Java, GCS
 
