@@ -39,6 +39,6 @@
 - Oversaw complete application deployment and contributed to designing its architecture and core components.
 - Technologies used: Go, AWS
 
-### Distributed Word Matcher, (Princeton University, Distributed Systems course projects)
+### Distributed Word Matcher (Princeton University, Distributed Systems course projects)
 - Efficiently distributed the task of identifying top common words across multiple threads using Go's concurrency and channels.
 - Technologies used: Go
