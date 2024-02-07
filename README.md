@@ -3,10 +3,10 @@
 #### Tools and Technologies: Docker, Kubernetes, Apache Spark, Apache ZooKeeper, Node.js, React.js, Linux, Git
 
 ## Education
-- M.Sc., Computer Science	| Tennessee Tech. University (_December 2019_)	 			        		
-- B.Sc., Computer Engineering | Alexandria University (_May 2017_)
+- M.Sc., Computer Science	| Tennessee Tech. University (01/2024 - Present)	 			        		
+- B.Sc., Computer Engineering | Alexandria University (09/2016 - 06/2021)
 
-## Work Experience
+## Selected Work Experience
 **Software Engineer II @ Incorta (09/2022 - 02/2024)**
 - Accomplished 15% reduction in loader pod memory.
 - Crafted end-to-end encryption solution for customer data, owning all project design and investigations.
