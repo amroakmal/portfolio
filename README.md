@@ -15,30 +15,36 @@
 - Improved loader component elasticity and efficiency by scaling it based on the running workload.
 - Integrated DeltaLake's deletion vectors into Incorta's engine, boosting Incorta queries performance running on Apache Spark.
 - Initiated a process for tracking customers' latest releases and versions, improving issue troubleshooting.
-- Technologies used: Java, Apache Spark, Apache ZooKeeper, DeltaLake
+- **Technologies used**: Java, Apache Spark, Apache ZooKeeper, DeltaLake
 
 **Software Engineer I @ Incorta (11/2021 - 08/2022)**
 - Attained a **7X** speedup in query execution and dashboard rendering by designing a new model for the data reading process.
 - Slashed data access cost by **20%** at cloud storage systems achieving a **5X** boost in data retrieval by implementation a new caching layer.
 - Facilitated customer issues diagnostics by improving system resources' telemetry and monitoring.
-- Technologies used: Java, GCS
+- **Technologies used**: Java, GCS
 
 **Software Engineering Graduate Intern @ Incorta (08/2021 - 10/2021)**
 - Implemented an internal logging service enhancing system monitoring and cloud monitoring and logging services.
 - Improved logs analysis tool visualization using for more precise system performance analysis.
-- Technologies used: React.js, Node.js, Typescript
+- **Technologies used**: React.js, Node.js, Typescript
 
 **Backend Engineering Intern @ M3ntorship (01/2021 - 04/2021)**
 - Co-designed the backend system architecture from scratch and automated CI/CD process for multiple services.
-- Technologies used: GitHub Actions, Nest.js, PlantUML
+- **Technologies used**: GitHub Actions, Nest.js, PlantUML
 
 ## Projects
 ### Blogram (Graduation Project, excellence with honor)
 - An Instagram clone targeting blind people.
 - We supported features like image captioning, login, connect and chat with friends, and app navigation using voice commands.
 - Oversaw complete application deployment and contributed to designing its architecture and core components.
-- Technologies used: Go, AWS
+- **Technologies used**: Go, AWS
 
 ### Distributed Word Matcher (Princeton University, Distributed Systems course projects)
 - Efficiently distributed the task of identifying top common words across multiple threads using Go's concurrency and channels.
-- Technologies used: Go
+- **Technologies used**: Go
+
+## Awards
+- Ranked 2nd place with my team at ACM CS Hackathon in 2021.
+- Ranked among top 7% at Codeforces Global Round Contest in 2020.
+- Ranked 10th Place with my team at AlexCPC, and qualified for the Egyptian Collegiate Programming Contest in 2018.
+
