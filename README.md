@@ -1,279 +1,196 @@
-# Website Pages Structure
+# Amr Abouelmagd
 
-This directory contains all the pages for Amr Abouelmagd's personal website, organized into separate sections for easy navigation and maintenance.
+**M.S. Computer Science Student | HPC Research | Software Engineer**
 
----
-
-## 📁 File Structure
-
-```
-website-pages/
-├── home.md              # Main landing page with overview and quick links
-├── resume.md            # Complete resume in single-page format
-├── education.md         # Educational background and coursework
-├── experience.md        # Detailed work experience
-├── publications.md      # Research publications and papers
-├── projects.md          # Technical projects portfolio
-├── skills.md            # Technical skills and competencies
-├── awards.md            # Awards, achievements, and recognitions
-└── README.md            # This file
-```
+📧 amrakmal97@gmail.com | 💼 [LinkedIn](https://linkedin.com/in/amroakmal) | 🐙 [GitHub](https://github.com/amroakmal) | 🎓 [Google Scholar](https://scholar.google.com)
 
 ---
 
-## 📄 Page Descriptions
+## 👋 About Me
 
-### home.md
-The main landing page featuring:
-- Brief introduction and current status
-- Research interests
-- Recent highlights
-- Quick navigation links to all other pages
+I'm a Computer Science graduate student at Tennessee Technological University (4.0 GPA) with a passion for high-performance computing, systems optimization, and distributed systems. My research focuses on GPU performance analysis, particularly on AMD MI300A architectures, where I investigate partitioning modes, memory bandwidth, and scheduling behaviors.
 
-**Recommended as**: Homepage / Index page
+With nearly 3 years of industry experience as a Software Engineer at Incorta, I've delivered significant performance improvements—achieving up to 7x speedups and 20% cost reductions through innovative caching and optimization strategies.
 
 ---
 
-### resume.md
-A comprehensive single-page resume including:
-- Professional summary
-- Complete work experience
-- All publications
-- Education details
-- Projects
-- Skills
-- Awards
+## 🔬 Research Interests
 
-**Use for**: Downloadable resume, quick overview page
+- High-Performance Computing (HPC)
+- GPU Architecture and Performance Optimization
+- Distributed Systems
+- Parallel Computing
+- Systems Performance Analysis
+- Federated Learning Security
 
 ---
 
-### education.md
-Detailed educational background:
-- Graduate education (Tennessee Tech - 4.0 GPA)
-- Undergraduate education (Alexandria University)
-- Relevant coursework
-- Research activities
+## 📚 Quick Navigation
 
-**Highlights**: Perfect GPA, thesis research focus
-
----
-
-### experience.md
-In-depth work experience with:
-- Lawrence Livermore National Lab internship
-- Incorta (3 positions over 3 years)
-- Earlier internships
-- Detailed technical contributions and achievements
-
-**Highlights**: Quantified impacts (7x speedups, 20% cost reductions)
+- [📖 Education](#education)
+- [💼 Work Experience](#work-experience)
+- [📝 Publications](#publications)
+- [🛠️ Projects](#projects)
+- [⚡ Technical Skills](#technical-skills)
+- [🏆 Awards & Achievements](#awards--achievements)
 
 ---
 
-### publications.md
-Complete research publication list:
-- 6 publications (2024-2025)
-- Conference papers and posters
-- Collaborative research
-- Research areas and interests
-- Publication statistics
+## 📖 Education
 
-**Highlights**: SC 2025 poster, Outstanding Paper Award, first-author papers
+[View detailed education →](./education.md)
 
----
+### Tennessee Technological University
+**Master of Science in Computer Science (Thesis)** | *January 2024 – May 2026 (Expected)*  
+📍 Tennessee, United States
 
-### projects.md
-Technical project portfolio:
-- HPC projects (Parallelized Game of Life)
-- Systems projects (CMU BusTub)
-- Graduation project (Blogram)
-- Distributed systems projects
-- Future project interests
+- **CGPA**: 4.0/4.0
+- **Focus**: High-Performance Computing, GPU Architecture, Parallel Computing
+- **Thesis**: GPU Partitioning, Power, and Performance Analysis of AMD MI300A
 
-**Highlights**: Diverse technical range, academic and personal projects
+### Alexandria University
+**Bachelor of Science in Computer Engineering** | *September 2016 – June 2021*  
+📍 Alexandria, Egypt
+
+- **Graduation Project**: Excellence with Honor (Blogram - Instagram for visually impaired)
 
 ---
 
-### skills.md
-Comprehensive technical skills:
-- Programming languages (expert to familiar)
-- HPC and parallel computing
-- Cloud and DevOps
-- Databases and big data
-- Software engineering practices
-- Research skills
+## 💼 Work Experience
 
-**Highlights**: Depth in HPC, breadth across full stack
+[View detailed experience →](./experience.md)
 
----
+### Lawrence Livermore National Lab (LLNL)
+**Student Intern, Computation Directorate** | *May 2025 – August 2025* | California, US
 
-### awards.md
-Complete achievements list:
-- Academic awards (Outstanding Paper, Perfect GPA)
-- Competitive programming results
-- Professional certifications
-- Publication milestones
-- Impact metrics
-- Recognition timeline
+- Authored paper on **GPU Partitioning, Power, and Performance of AMD MI300A**, accepted at **SCA/HPC Asia 2026**
+- Created poster accepted at **SC 2025** (Supercomputing Conference)
+- Designed large-scale experiments on AMD MI300A analyzing runtime, cache, and scheduling behaviors
+- Built reproducible workflows with **rocprofv3** for hardware counter analysis
+- Exposed scheduling bottlenecks in MI300A partitioning modes
 
-**Highlights**: Outstanding Paper Award, 2nd place hackathon, Top 7% Codeforces
+### Incorta | Alexandria, Egypt
 
----
+**Software Engineer II** | *September 2022 – February 2024*
+- Achieved **15% reduction** in loader pod memory usage
+- Integrated **DeltaLake's deletion vectors** for improved Spark performance
+- Designed end-to-end encryption solution for customer data
 
-## 🎨 Styling Recommendations
+**Software Engineer I** | *November 2021 – August 2022*
+- Attained **7x speedup** in query execution and dashboard rendering
+- Reduced data access costs by **20%** with **5x boost** in retrieval speed
+- Enhanced indexing logic achieving **2x performance boost** in search engine
+- Improved CPU utilization from **40% to 85%**
 
-### Navigation
-Each page includes a "Back to Home" link at the bottom. Consider adding:
-- Top navigation bar with links to all sections
-- Side navigation menu
-- Breadcrumb navigation
-
-### Visual Elements
-The content uses:
-- ✅ Emojis for visual interest (sparingly)
-- **Bold text** for emphasis
-- Headers for clear section breaks
-- Bullet points for easy scanning
-- Tables where appropriate (awards timeline)
-
-### Responsive Design
-All pages are written in Markdown and can be:
-- Converted to HTML
-- Styled with CSS
-- Made responsive with media queries
-- Enhanced with JavaScript for interactivity
+**Software Engineering Intern** | *August 2021 – October 2021*
+- Implemented internal logging service for system monitoring
+- Improved log analysis visualization
 
 ---
 
-## 🚀 Implementation Suggestions
+## 📝 Publications
 
-### Static Site Generators
-These markdown files work great with:
-- **Jekyll** (GitHub Pages)
-- **Hugo** (fast build times)
-- **Gatsby** (React-based)
-- **Next.js** (modern, flexible)
-- **MkDocs** (documentation-focused)
+[View all publications →](./publications.md)
 
-### Hosting Options
-- **GitHub Pages** (free, easy)
-- **Netlify** (free tier, continuous deployment)
-- **Vercel** (optimized for Next.js)
-- **AWS S3 + CloudFront** (scalable)
+### 2025 (5 Publications)
 
-### Additional Features to Consider
-1. **Search functionality** across all pages
-2. **Dark mode toggle**
-3. **Print-friendly resume version**
-4. **Download resume as PDF** button
-5. **Social media meta tags** for sharing
-6. **Google Analytics** for visitor tracking
-7. **Contact form** on homepage
-8. **Blog section** for technical writing
-9. **Project images/screenshots**
-10. **Interactive timeline** for experience/education
+**First-Author Papers:**
+1. **A. A. Abouelmagd** et al., *GPU Partitioning, Power, and Performance of the AMD MI300A*, SCA/HPC Asia 2026 ✅
+2. **A. A. Abouelmagd** et al., *Using Hardware Metrics to Understand Performance of RAJA Kernels on MI300A*, SC 2025 Poster ✅
+3. **A. A. Abouelmagd**, A. Hilal, *Emerging Paradigms for Securing Federated Learning Systems*, IEEE GCAIoT 2025
+
+**Co-Authored Papers:**
+4. S. Yang et al. (incl. **A. A. Abouelmagd**), *Load Imbalance in HPC Applications*, IEEE HPEC 2025
+5. E. Namugwanya et al. (incl. **A. A. Abouelmagd**), *Survey of MPI Alltoall Optimizations*, SAI 2025
+
+### 2024
+
+6. P. H. Chen et al. (incl. **A. A. Abouelmagd**), *Cycle-Stealing in Load-Imbalanced HPC Applications*, IEEE HPEC 2024  
+   🏆 **Outstanding Student Paper Award**
 
 ---
 
-## 📋 Content Maintenance
+## 🛠️ Projects
 
-### Regular Updates Needed
-- **Publications**: Add new papers as accepted
-- **Experience**: Update with new positions/achievements
-- **Skills**: Add new technologies as learned
-- **Awards**: Add new recognitions
-- **Projects**: Add new projects completed
+[View detailed projects →](./projects.md)
 
-### Version Control
-- Keep this in a Git repository
-- Create branches for major updates
-- Tag releases for significant milestones
-- Use commit messages to track changes
+### Parallelized Game of Life | C++, MPI, Kokkos
+- Developed scalable 2D-decomposed distributed Game of Life
+- Leveraged MPI for cross-node and Kokkos for on-node parallelism
 
----
+### CMU BusTub Database Engine | C++
+- Implemented buffer pool manager with efficient memory management
+- Developed thread-safe LRU page replacement algorithm
 
-## 🔗 Internal Linking
+### Blogram (Graduation Project) | Go, AWS
+**Excellence with Honor**
+- Instagram clone for visually impaired users
+- Features: image captioning, voice navigation, social connections
+- Led deployment and architecture design
 
-Current internal links use relative paths:
-```markdown
-[← Back to Home](./home.md)
-```
-
-Adjust these based on your chosen framework's routing:
-- Jekyll: `/`, `/experience/`, etc.
-- Next.js: `/`, `/experience`, etc.
-- Hugo: `/`, `/experience/`, etc.
+### Distributed Word Matcher | Go
+- Efficient distributed word identification using Go concurrency
+- Princeton University Distributed Systems course project
 
 ---
 
-## 📱 Mobile Optimization
+## ⚡ Technical Skills
 
-Consider for mobile users:
-- Responsive tables (awards timeline)
-- Collapsible sections for long pages
-- Fixed navigation header
-- Touch-friendly buttons
-- Optimized font sizes
+[View comprehensive skills →](./skills.md)
 
----
+**Programming Languages**: C/C++, Python, Java, Go, SQL
 
-## ♿ Accessibility
+**HPC & Parallel Computing**: MPI, CUDA, Kokkos, rocPROF, OpenMP, RAJA
 
-All content follows accessibility best practices:
-- Clear heading hierarchy (H1 → H2 → H3)
-- Descriptive link text
-- Structured content with semantic meaning
-- Alt text recommendations for any images added
+**Cloud & DevOps**: Docker, Kubernetes, Jenkins, Git, AWS, GCP
+
+**Databases & Big Data**: MySQL, MongoDB, Apache Spark, Apache ZooKeeper, DeltaLake
+
+**Web Development**: Node.js, React.js, TypeScript
+
+**Tools**: Linux/Unix, CMake, Make, GDB, Visual Studio
 
 ---
 
-## 📊 Analytics Recommendations
+## 🏆 Awards & Achievements
 
-Track these metrics:
-- Most visited pages (likely Resume, Projects)
-- Time spent on each page
-- Download clicks (for PDF resume)
-- External link clicks (LinkedIn, GitHub, Scholar)
-- Traffic sources
+[View all awards →](./awards.md)
 
----
-
-## 🎯 SEO Considerations
-
-For better search visibility:
-1. Add meta descriptions to each page
-2. Use descriptive page titles
-3. Include structured data (JSON-LD)
-4. Create sitemap.xml
-5. Add robots.txt
-6. Link to social profiles
-7. Use canonical URLs
+- 🏆 **Outstanding Student Paper Award** - IEEE HPEC 2024
+- 🎓 **Perfect 4.0 GPA** - Graduate School (Tennessee Tech)
+- 🥈 **2nd Place** - Alexandria ACM CS Hackathon 2021
+- 🎯 **Meta HackerCup Round 1** & **Google CodeJam Rounds 1 & 2**
+- 📜 **Udacity Cloud DevOps Nanodegree** - Completed
+- 🌟 **Top 7%** - Codeforces Global Round Contest 2020
+- 🥉 **10th Place** - AlexCPC, qualified for ECPC 2018
+- 🎖️ **Excellence with Honor** - Graduation Project (Blogram)
 
 ---
 
-## 📝 Next Steps
+## 📊 Impact Metrics
 
-1. Choose a static site generator or framework
-2. Set up the project structure
-3. Convert markdown to HTML templates
-4. Apply custom styling (CSS)
-5. Add navigation between pages
-6. Test on multiple devices
-7. Deploy to hosting platform
-8. Set up custom domain (optional)
-9. Configure analytics
-10. Share your new website!
+**Research**: 6 publications • 3 first-author papers • 1 outstanding paper award • SC 2025 poster
+
+**Industry**: 7x performance speedup • 20% cost reduction • 15% memory optimization • 85% CPU utilization
+
+**Education**: 4.0/4.0 GPA • LLNL internship • Thesis research on AMD MI300A
 
 ---
 
-**Need help with implementation?** Feel free to ask about:
-- Specific framework setup
-- Styling recommendations
-- Deployment processes
-- Adding interactive features
-- Converting to different formats
+## 📫 Contact & Links
+
+- **Email**: amrakmal97@gmail.com
+- **LinkedIn**: [linkedin.com/in/amroakmal](https://linkedin.com/in/amroakmal)
+- **GitHub**: [github.com/amroakmal](https://github.com/amroakmal)
+- **Google Scholar**: [View Publications](https://scholar.google.com)
+- **Location**: United States
 
 ---
 
-*Created: October 2025*  
-*Ready for deployment to personal website*
+## 📄 Download Resume
+
+[Download Full Resume (PDF)](#) | [View Single-Page Resume](./resume.md)
+
+---
+
+*Last Updated: October 2025*
