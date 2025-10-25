@@ -174,4 +174,4 @@ Areas I'm interested in exploring:
 
 ---
 
-[← Back to Home](./home.md)
+[← Back to Main Page](./README.md)

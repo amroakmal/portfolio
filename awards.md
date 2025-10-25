@@ -163,4 +163,4 @@ These achievements collectively demonstrate:
 
 ---
 
-[← Back to Home](./home.md)
+[← Back to Main Page](./README.md)

@@ -104,4 +104,4 @@ rocPROF, AMD MI300A, HSA, RAJA Performance Suite, Hardware Performance Counters
 
 ---
 
-[← Back to Home](./home.md)
+[← Back to Main Page](./README.md)

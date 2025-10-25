@@ -175,4 +175,4 @@ High-performing Computer Science graduate student with 4.0 GPA and nearly 3 year
 
 ---
 
-[← Back to Home](./home.md)
+[← Back to Main Page](./README.md)
