@@ -1,5 +1,7 @@
 # Projects
 
+[Home](./README.md) | [About](./README.md#about) | [Education](./education.md) | [Experience](./experience.md) | [Publications](./publications.md) | [Projects](./projects.md) | [Skills](./skills.md) | [Awards](./awards.md) | [Resume](./resume.md)
+
 ---
 
 ## High-Performance Computing Projects
