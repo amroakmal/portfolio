@@ -1,167 +1,279 @@
-# Amr Abouelmagd
+# Website Pages Structure
 
-**M.S. Computer Science Student | HPC Research | Software Engineer**
-
-📧 amrakmal97@gmail.com | 💼 [LinkedIn](https://linkedin.com/in/amroakmal) | 🐙 [GitHub](https://github.com/amroakmal) | 🎓 [Google Scholar](https://scholar.google.com)
+This directory contains all the pages for Amr Abouelmagd's personal website, organized into separate sections for easy navigation and maintenance.
 
 ---
 
-## About Me
+## 📁 File Structure
 
-I'm a Computer Science graduate student at Tennessee Technological University (4.0 GPA) with a passion for high-performance computing, systems optimization, and distributed systems. My research focuses on GPU performance analysis, particularly on AMD MI300A architectures, where I investigate partitioning modes, memory bandwidth, and scheduling behaviors.
-
-With nearly 3 years of industry experience as a Software Engineer at Incorta, I've delivered significant performance improvements—achieving up to 7x speedups and 20% cost reductions through innovative caching and optimization strategies.
-
----
-
-## Education
-
-**Tennessee Technological University** | *Tennessee, US*  
-**M.S. in Computer Science (Thesis)** | *January 2024 – May 2026 (Expected)*  
-- CGPA: 4.0/4.0
-
-**Alexandria University** | *Alexandria, Egypt*  
-**B.S. in Computer Engineering** | *September 2016 – June 2021*
+```
+website-pages/
+├── home.md              # Main landing page with overview and quick links
+├── resume.md            # Complete resume in single-page format
+├── education.md         # Educational background and coursework
+├── experience.md        # Detailed work experience
+├── publications.md      # Research publications and papers
+├── projects.md          # Technical projects portfolio
+├── skills.md            # Technical skills and competencies
+├── awards.md            # Awards, achievements, and recognitions
+└── README.md            # This file
+```
 
 ---
 
-## Work Experience
+## 📄 Page Descriptions
 
-### Lawrence Livermore National Lab (LLNL)
-**Student Intern, Computation Directorate** | *May 2025 – August 2025* | *California, US*
+### home.md
+The main landing page featuring:
+- Brief introduction and current status
+- Research interests
+- Recent highlights
+- Quick navigation links to all other pages
 
-- Authored a paper on **GPU Partitioning, Power, and Performance of the AMD MI300A**, accepted at SCA/HPC Asia 2026
-- Created a poster on MI300A performance analysis, accepted for presentation at **SC 2025** (Supercomputing Conference)
-- Designed large-scale experiments on AMD MI300A to analyze runtime, cache, memory bandwidth, and scheduling behaviors for compute- vs. memory-bound kernels
-- Built reproducible workflows with **rocprofv3** to capture and analyze hardware counters for L1/L2/HBM
-- Exposed scheduling bottlenecks in MI300A partitioning modes by profiling HSA queues, ACE dispatch, and SE behavior
-
-### Incorta
-**Software Engineer II** | *September 2022 – February 2024* | *Alexandria, Egypt*
-
-- Achieved a **15% reduction** in loader pod memory usage
-- Designed and implemented end-to-end encryption solution for customer data, owning all project design and investigations
-- Integrated **DeltaLake's deletion vectors** into Incorta's engine, boosting query performance on Apache Spark
-- Improved loader component elasticity by implementing workload-based scaling
-- Initiated customer release tracking process, improving issue troubleshooting efficiency
-- **Technologies**: Java, Apache Spark, Apache ZooKeeper, DeltaLake
-
-**Software Engineer I** | *November 2021 – August 2022*
-
-- Attained a **7x speedup** in query execution and dashboard rendering through innovative data reading model design
-- Reduced data access costs by **20%** at cloud storage systems while achieving a **5x boost** in data retrieval via new caching layer
-- Enhanced indexing technique logic, achieving a **2x performance boost** in Incorta's search engine
-- Improved data reading latency by **7x** for 1 Billion+ records, boosting CPU utilization from 40% to 85%
-- **Technologies**: Java, GCS
-
-**Software Engineering Intern** | *August 2021 – October 2021*
-
-- Implemented internal logging service enhancing system monitoring and cloud logging capabilities
-- Improved log analysis tool visualization for more precise system performance analysis
-- **Technologies**: React.js, Node.js, TypeScript
+**Recommended as**: Homepage / Index page
 
 ---
 
-## Publications
+### resume.md
+A comprehensive single-page resume including:
+- Professional summary
+- Complete work experience
+- All publications
+- Education details
+- Projects
+- Skills
+- Awards
 
-### 2025
-
-**A. A. Abouelmagd**, D. Boehme, S. Brink, J. Burmark, M. McKinsey, A. Skjellum, O. Pearce  
-*GPU Partitioning, Power, and Performance of the AMD MI300A*  
-SCA/HPC Asia 2026
-
-**A. A. Abouelmagd**, O. Pearce, S. Brink, M. McKinsey, D. Boehme, J. Burmark, B. Ryujin, T. Scogland, A. Skjellum  
-*Using Hardware Metrics to Understand Performance of the RAJA Performance Suite Kernels in Different GPU Modes on MI300A*  
-Poster, SC 2025 (Supercomputing Conference), St. Louis, MO, November 2025 *(to be presented)*
-
-**A. A. Abouelmagd**, A. Hilal  
-*Emerging Paradigms for Securing Federated Learning Systems*  
-9th IEEE Global Conference on Artificial Intelligence and Internet of Things (GCAIoT), November 2025 *(to be presented)*
-
-S. Yang, X. Yao, G. Nansamba, **A. A. Abouelmagd**, A. Skjellum, M. Herbordt  
-*Load Imbalance in HPC Applications: Improved Profiling and New Ways to Use Wasted Cycles*  
-29th Annual IEEE High Performance Extreme Computing (HPEC), Virtual, September 2025
-
-E. Namugwanya, G. Nansamba, **A. A. Abouelmagd**, A. Skjellum  
-*A Survey of Optimization Approaches for MPI Alltoall and MPI Alltoallv Collective Communication Operations*  
-SAI Computing Conference 2025, London, UK
-
-### 2024
-
-P. H. Chen, A. Bali, S. Yang, P. Haghi, C. Knox, B. Li, **A. A. Abouelmagd**, A. Skjellum, M. Herbordt  
-*Cycle-Stealing in Load-Imbalanced HPC Applications*  
-28th Annual IEEE High Performance Extreme Computing (HPEC), September 2024  
-**🏆 Outstanding Student Paper Award**
+**Use for**: Downloadable resume, quick overview page
 
 ---
 
-## Technical Skills
+### education.md
+Detailed educational background:
+- Graduate education (Tennessee Tech - 4.0 GPA)
+- Undergraduate education (Alexandria University)
+- Relevant coursework
+- Research activities
 
-**Programming Languages**: C/C++, Python, Java, Go, SQL
-
-**HPC & Parallel Computing**: MPI, CUDA, Kokkos, rocPROF
-
-**Cloud & DevOps**: Docker, Kubernetes, Jenkins, Git, Unix/Linux
-
-**Databases & Big Data**: MySQL, MongoDB, Apache Spark, Apache ZooKeeper
-
-**Web Development**: Node.js, React.js, TypeScript
+**Highlights**: Perfect GPA, thesis research focus
 
 ---
 
-## Selected Projects
+### experience.md
+In-depth work experience with:
+- Lawrence Livermore National Lab internship
+- Incorta (3 positions over 3 years)
+- Earlier internships
+- Detailed technical contributions and achievements
 
-### Parallelized Game of Life
-**Technologies**: C++, MPI, Kokkos
-
-- Developed a scalable 2D-decomposed distributed and parallel implementation of Conway's Game of Life
-- Leveraged MPI for distributed cross-node communication and Kokkos for concurrent on-node computation
-- Optimized for high-performance computing environments
-
-### CMU BusTub Database Engine
-**Technologies**: C++, Makefile
-
-- Designed and implemented a buffer pool manager for efficient memory management and page replacement
-- Developed a thread-safe LRU algorithm for page replacement, maximizing memory utilization
-- Implemented core database engine components as part of CMU's database systems course
-
-### Blogram (Graduation Project)
-**Technologies**: Go, AWS  
-**Achievement**: Excellence with Honor
-
-- Built an Instagram clone specifically designed for blind users
-- Implemented features including image captioning, voice-controlled navigation, social connections, and chat
-- Oversaw complete application deployment on AWS and contributed to system architecture design
-
-### Distributed Word Matcher
-**Technologies**: Go  
-**Course**: Princeton University, Distributed Systems
-
-- Efficiently distributed the task of identifying top common words across multiple threads using Go's concurrency primitives and channels
-- Optimized for performance in distributed computing environments
+**Highlights**: Quantified impacts (7x speedups, 20% cost reductions)
 
 ---
 
-## Awards & Achievements
+### publications.md
+Complete research publication list:
+- 6 publications (2024-2025)
+- Conference papers and posters
+- Collaborative research
+- Research areas and interests
+- Publication statistics
 
-- 🏆 **Outstanding Student Paper Award** at IEEE HPEC 2024
-- 🥈 **2nd Place** at Alexandria ACM CS Hackathon 2021
-- 🎯 Participated in **Meta HackerCup Round 1** and **Google Codejam Rounds 1 and 2**
-- 🎓 Successfully completed **Udacity's Cloud DevOps Nanodegree** program
-- 🏅 **Top 7%** at Codeforces Global Round Contest 2020
-- 🥉 **10th Place** at AlexCPC, qualified for the Egyptian Collegiate Programming Contest 2018
-
----
-
-## Research Interests
-
-- High-Performance Computing (HPC)
-- GPU Architecture and Performance Optimization
-- Distributed Systems
-- Parallel Computing
-- Systems Performance Analysis
-- Federated Learning Security
+**Highlights**: SC 2025 poster, Outstanding Paper Award, first-author papers
 
 ---
 
-*Last Updated: October 2025*
+### projects.md
+Technical project portfolio:
+- HPC projects (Parallelized Game of Life)
+- Systems projects (CMU BusTub)
+- Graduation project (Blogram)
+- Distributed systems projects
+- Future project interests
+
+**Highlights**: Diverse technical range, academic and personal projects
+
+---
+
+### skills.md
+Comprehensive technical skills:
+- Programming languages (expert to familiar)
+- HPC and parallel computing
+- Cloud and DevOps
+- Databases and big data
+- Software engineering practices
+- Research skills
+
+**Highlights**: Depth in HPC, breadth across full stack
+
+---
+
+### awards.md
+Complete achievements list:
+- Academic awards (Outstanding Paper, Perfect GPA)
+- Competitive programming results
+- Professional certifications
+- Publication milestones
+- Impact metrics
+- Recognition timeline
+
+**Highlights**: Outstanding Paper Award, 2nd place hackathon, Top 7% Codeforces
+
+---
+
+## 🎨 Styling Recommendations
+
+### Navigation
+Each page includes a "Back to Home" link at the bottom. Consider adding:
+- Top navigation bar with links to all sections
+- Side navigation menu
+- Breadcrumb navigation
+
+### Visual Elements
+The content uses:
+- ✅ Emojis for visual interest (sparingly)
+- **Bold text** for emphasis
+- Headers for clear section breaks
+- Bullet points for easy scanning
+- Tables where appropriate (awards timeline)
+
+### Responsive Design
+All pages are written in Markdown and can be:
+- Converted to HTML
+- Styled with CSS
+- Made responsive with media queries
+- Enhanced with JavaScript for interactivity
+
+---
+
+## 🚀 Implementation Suggestions
+
+### Static Site Generators
+These markdown files work great with:
+- **Jekyll** (GitHub Pages)
+- **Hugo** (fast build times)
+- **Gatsby** (React-based)
+- **Next.js** (modern, flexible)
+- **MkDocs** (documentation-focused)
+
+### Hosting Options
+- **GitHub Pages** (free, easy)
+- **Netlify** (free tier, continuous deployment)
+- **Vercel** (optimized for Next.js)
+- **AWS S3 + CloudFront** (scalable)
+
+### Additional Features to Consider
+1. **Search functionality** across all pages
+2. **Dark mode toggle**
+3. **Print-friendly resume version**
+4. **Download resume as PDF** button
+5. **Social media meta tags** for sharing
+6. **Google Analytics** for visitor tracking
+7. **Contact form** on homepage
+8. **Blog section** for technical writing
+9. **Project images/screenshots**
+10. **Interactive timeline** for experience/education
+
+---
+
+## 📋 Content Maintenance
+
+### Regular Updates Needed
+- **Publications**: Add new papers as accepted
+- **Experience**: Update with new positions/achievements
+- **Skills**: Add new technologies as learned
+- **Awards**: Add new recognitions
+- **Projects**: Add new projects completed
+
+### Version Control
+- Keep this in a Git repository
+- Create branches for major updates
+- Tag releases for significant milestones
+- Use commit messages to track changes
+
+---
+
+## 🔗 Internal Linking
+
+Current internal links use relative paths:
+```markdown
+[← Back to Home](./home.md)
+```
+
+Adjust these based on your chosen framework's routing:
+- Jekyll: `/`, `/experience/`, etc.
+- Next.js: `/`, `/experience`, etc.
+- Hugo: `/`, `/experience/`, etc.
+
+---
+
+## 📱 Mobile Optimization
+
+Consider for mobile users:
+- Responsive tables (awards timeline)
+- Collapsible sections for long pages
+- Fixed navigation header
+- Touch-friendly buttons
+- Optimized font sizes
+
+---
+
+## ♿ Accessibility
+
+All content follows accessibility best practices:
+- Clear heading hierarchy (H1 → H2 → H3)
+- Descriptive link text
+- Structured content with semantic meaning
+- Alt text recommendations for any images added
+
+---
+
+## 📊 Analytics Recommendations
+
+Track these metrics:
+- Most visited pages (likely Resume, Projects)
+- Time spent on each page
+- Download clicks (for PDF resume)
+- External link clicks (LinkedIn, GitHub, Scholar)
+- Traffic sources
+
+---
+
+## 🎯 SEO Considerations
+
+For better search visibility:
+1. Add meta descriptions to each page
+2. Use descriptive page titles
+3. Include structured data (JSON-LD)
+4. Create sitemap.xml
+5. Add robots.txt
+6. Link to social profiles
+7. Use canonical URLs
+
+---
+
+## 📝 Next Steps
+
+1. Choose a static site generator or framework
+2. Set up the project structure
+3. Convert markdown to HTML templates
+4. Apply custom styling (CSS)
+5. Add navigation between pages
+6. Test on multiple devices
+7. Deploy to hosting platform
+8. Set up custom domain (optional)
+9. Configure analytics
+10. Share your new website!
+
+---
+
+**Need help with implementation?** Feel free to ask about:
+- Specific framework setup
+- Styling recommendations
+- Deployment processes
+- Adding interactive features
+- Converting to different formats
+
+---
+
+*Created: October 2025*  
+*Ready for deployment to personal website*
