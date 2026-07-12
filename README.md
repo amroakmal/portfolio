@@ -6,16 +6,19 @@
 
 ---
 
-I study how modern accelerators actually behave under load — GPU architecture,
-partitioning, power, and performance. I'm currently a research intern at
-**Lawrence Livermore National Laboratory**, working on the AMD MI300A APU that powers
-**El Capitan**, the world's fastest supercomputer. This fall I begin a **Ph.D. at
-Tennessee Tech**, advised by Prof. Anthony Skjellum.
+I chase one question: how do large-scale systems actually behave when you push them
+to the edge? My research runs from **GPU architecture, partitioning, and power** on the
+AMD MI300A APU behind **El Capitan** — the world's fastest supercomputer — to **fault
+tolerance in HPC**, **KV-caching architecture and performance**, and reshaping **MPI for
+the AI era** so it stays fault-tolerant.
+This fall I begin my PhD journey with Prof. Anthony Skjellum.
 
 ## Research interests
 
-- High-Performance Computing (HPC)
-- GPU Architecture & Performance Optimization
+- GPU Architecture, Partitioning & Power
+- Fault Tolerance in HPC Systems
+- KV-Caching Architecture & Performance
+- MPI for AI — fault-tolerant, strong progress
 - Distributed Systems & Parallel Computing
 - Systems Performance Analysis
 
