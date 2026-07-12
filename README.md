@@ -42,7 +42,7 @@ This fall I begin my PhD journey with Prof. Anthony Skjellum.
 
 ## Selected publications
 
-*(4 first-author · full list on the [live site](https://amroakmal.github.io/portfolio/#publications))*
+*(4 first-author · full list on the [live site](https://amroakmal.github.io/#publications))*
 
 1. **A. Abouelmagd**, D. Boehme, S. Brink, J. Burmark, M. McKinsey, A. Skjellum, O. Pearce. *GPU Partitioning, Power, and Performance of the AMD MI300A.* **SCA/HPC Asia 2026.**
 2. **A. A. Abouelmagd**, O. Pearce, S. Brink, M. McKinsey, D. Boehme, J. Burmark, B. Ryujin, T. Scogland, A. Skjellum. *Using Hardware Metrics to Understand Performance of RAJA Suite Kernels in Different GPU Modes on MI300A.* **Poster, SC'25 — Top 5 Finalist, Graduate Student Research Competition.**
