@@ -2,7 +2,7 @@
 
 **M.S. Computer Science · HPC & GPU Systems Researcher · Software Engineer**
 
-🔗 **Live portfolio → https://amroakmal.github.io/**
+🔗 **Live portfolio → https://amroakmal.github.io**
 
 ---
 
